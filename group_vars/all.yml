@@ -1,0 +1,2 @@
+---
+ansible_ssh_args: -o CheckHostIP=no -o ProxyCommand='gcloud compute start-iap-tunnel {{ vars.name }} %p --listen-on-stdin --project {{ vars.project }} --zone {{ vars.zone }} --verbosity=warning'

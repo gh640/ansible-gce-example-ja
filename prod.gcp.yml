@@ -1,0 +1,15 @@
+plugin: gcp_compute
+zones:
+  # TODO: 変更
+  - asia-northeast1-a
+projects:
+  # TODO: 変更
+  - my_project
+auth_kind: serviceaccount
+service_account_file: ./secrets/gce_key_file.json
+hostnames:
+  - name
+groups:
+  # TODO: 変更
+  prod: "name == 'my_instance'"
+strict: yes
