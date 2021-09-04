@@ -1,0 +1,7 @@
+---
+- hosts: prod
+  gather_facts: no
+  tasks:
+    - name: pwd
+      ansible.builtin.command:
+        cmd: 'pwd'
