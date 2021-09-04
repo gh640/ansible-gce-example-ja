@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Custom
+/collections/ansible_collections
+/secrets/gce_key_file.json
