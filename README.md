@@ -88,6 +88,15 @@ strict: yes
 }
 ```
 
+### Compute Engine インスタンスで IAP TCP Forwarding を有効化
+
+対象の Compute Engine インスタンスで IAP TCP Forwarding を利用できるよう設定します。
+具体的には、ファイヤウォールルールの設定やサービスアカウントに対するパーミッションの付与等を行います。
+
+参考:
+
+- [Using IAP for TCP forwarding | Identity-Aware Proxy | Google Cloud](https://cloud.google.com/iap/docs/using-tcp-forwarding)
+
 ## 利用
 
 インベントリプラグイン `gcp_compute` でインスタンス情報が正しく取得できる確認します。
